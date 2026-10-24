@@ -170,10 +170,10 @@ final class ProductDetailCell: UITableViewCell {
             Waterproof: \(waterproofText)
             """
         
-        representedURL = viewStateModel.image?.imageUrl
+        representedURL = viewStateModel.resolvedImageURL
         productImageView.image = UIImage(systemName: "photo")
         
-        guard let imageUrl = viewStateModel.image?.imageUrl else { return }
+        guard let imageUrl = viewStateModel.resolvedImageURL else { return }
         
         ImageLoader.shared.loadImage(from: imageUrl) {
             [weak self] image in

@@ -129,10 +129,10 @@ final class ProductCell: UITableViewCell {
         descriptionLabel.text = viewStateModel.description
         categoryLabel.text = viewStateModel.category
         priceLabel.text = viewStateModel.price?.displayPrice
-        representedURL = viewStateModel.image?.imageUrl
+        representedURL = viewStateModel.resolvedImageURL
         productImageView.image = UIImage(systemName: "photo")
         
-        guard let imageUrl = viewStateModel.image?.imageUrl else { return }
+        guard let imageUrl = viewStateModel.resolvedImageURL else { return }
         
         ImageLoader.shared.loadImage(from: imageUrl) {
             [weak self] image in

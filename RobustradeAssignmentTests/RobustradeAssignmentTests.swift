@@ -19,6 +19,26 @@ final class RobustradeAssignmentTests: XCTestCase {
         XCTAssertTrue(1000.5.displayPrice.contains("₹"))
     }
 
+    func testBrokenAPIImageURLUsesDeterministicFallback() {
+        let product = ProductDetailsModel(
+            id: 42,
+            title: nil,
+            price: nil,
+            description: nil,
+            category: nil,
+            brand: nil,
+            stock: nil,
+            image: "https://fakeapi.net/images/missing.jpg",
+            specs: nil,
+            rating: nil
+        )
+
+        XCTAssertEqual(
+            product.resolvedImageURL?.absoluteString,
+            "https://picsum.photos/seed/robustrade-product-42/240/240"
+        )
+    }
+
     @MainActor
     func testFetchProductsLoadsInitialPage() async {
         let client = MockNetworkClient(results: [.success(response(page: 1, products: [product(id: 1)]))])

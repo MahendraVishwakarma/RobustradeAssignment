@@ -29,9 +29,11 @@ final class ImageLoader {
         }
 
         // 2. Download asynchronously
-        URLSession.shared.dataTask(with: url) { [weak self] data, _, error in
+        URLSession.shared.dataTask(with: url) { [weak self] data, response, error in
             guard
                 error == nil,
+                let response = response as? HTTPURLResponse,
+                (200...299).contains(response.statusCode),
                 let data,
                 let image = UIImage(data: data)
             else {

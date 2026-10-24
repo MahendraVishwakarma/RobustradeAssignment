@@ -23,7 +23,19 @@ struct ProductDetailsModel: Codable, Hashable {
     let image: String?
     let specs: Specs?
     let rating: ProductRating?
-    
+
+    var resolvedImageURL: URL? {
+        guard let imageURL = image?.imageUrl else { return nil }
+
+        // fakeapi image giving 404, so used picsum photo to show the running code
+        guard imageURL.host == "fakeapi.net",
+              imageURL.path.hasPrefix("/images/"),
+              let id else {
+            return imageURL
+        }
+
+        return URL(string: "https://picsum.photos/seed/robustrade-product-\(id)/240/240")
+    }
 }
 
 // MARK: - Rating
