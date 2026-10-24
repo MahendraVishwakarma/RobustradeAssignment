@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		80DAC17D308B0AE300440D50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80DAC15E308B0AE200440D50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80DAC165308B0AE200440D50;
+			remoteInfo = RobustradeAssignment;
+		};
+		80DAC187308B0AE300440D50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80DAC15E308B0AE200440D50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80DAC165308B0AE200440D50;
+			remoteInfo = RobustradeAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80DAC166308B0AE200440D50 /* RobustradeAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RobustradeAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80DAC17C308B0AE300440D50 /* RobustradeAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RobustradeAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80DAC186308B0AE300440D50 /* RobustradeAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RobustradeAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		80DAC18E308B0AE300440D50 /* Exceptions for "RobustradeAssignment" folder in "RobustradeAssignment" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 80DAC165308B0AE200440D50 /* RobustradeAssignment */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		80DAC168308B0AE200440D50 /* RobustradeAssignment */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				80DAC18E308B0AE300440D50 /* Exceptions for "RobustradeAssignment" folder in "RobustradeAssignment" target */,
+			);
+			path = RobustradeAssignment;
+			sourceTree = "<group>";
+		};
+		80DAC17F308B0AE300440D50 /* RobustradeAssignmentTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RobustradeAssignmentTests;
+			sourceTree = "<group>";
+		};
+		80DAC189308B0AE300440D50 /* RobustradeAssignmentUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RobustradeAssignmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80DAC163308B0AE200440D50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DAC179308B0AE300440D50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DAC183308B0AE300440D50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80DAC15D308B0AE200440D50 = {
+			isa = PBXGroup;
+			children = (
+				80DAC168308B0AE200440D50 /* RobustradeAssignment */,
+				80DAC17F308B0AE300440D50 /* RobustradeAssignmentTests */,
+				80DAC189308B0AE300440D50 /* RobustradeAssignmentUITests */,
+				80DAC167308B0AE200440D50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80DAC167308B0AE200440D50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80DAC166308B0AE200440D50 /* RobustradeAssignment.app */,
+				80DAC17C308B0AE300440D50 /* RobustradeAssignmentTests.xctest */,
+				80DAC186308B0AE300440D50 /* RobustradeAssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80DAC165308B0AE200440D50 /* RobustradeAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80DAC18F308B0AE300440D50 /* Build configuration list for PBXNativeTarget "RobustradeAssignment" */;
+			buildPhases = (
+				80DAC162308B0AE200440D50 /* Sources */,
+				80DAC163308B0AE200440D50 /* Frameworks */,
+				80DAC164308B0AE200440D50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				80DAC168308B0AE200440D50 /* RobustradeAssignment */,
+			);
+			name = RobustradeAssignment;
+			packageProductDependencies = (
+			);
+			productName = RobustradeAssignment;
+			productReference = 80DAC166308B0AE200440D50 /* RobustradeAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80DAC17B308B0AE300440D50 /* RobustradeAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80DAC194308B0AE300440D50 /* Build configuration list for PBXNativeTarget "RobustradeAssignmentTests" */;
+			buildPhases = (
+				80DAC178308B0AE300440D50 /* Sources */,
+				80DAC179308B0AE300440D50 /* Frameworks */,
+				80DAC17A308B0AE300440D50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80DAC17E308B0AE300440D50 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				80DAC17F308B0AE300440D50 /* RobustradeAssignmentTests */,
+			);
+			name = RobustradeAssignmentTests;
+			packageProductDependencies = (
+			);
+			productName = RobustradeAssignmentTests;
+			productReference = 80DAC17C308B0AE300440D50 /* RobustradeAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80DAC185308B0AE300440D50 /* RobustradeAssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80DAC197308B0AE300440D50 /* Build configuration list for PBXNativeTarget "RobustradeAssignmentUITests" */;
+			buildPhases = (
+				80DAC182308B0AE300440D50 /* Sources */,
+				80DAC183308B0AE300440D50 /* Frameworks */,
+				80DAC184308B0AE300440D50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80DAC188308B0AE300440D50 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				80DAC189308B0AE300440D50 /* RobustradeAssignmentUITests */,
+			);
+			name = RobustradeAssignmentUITests;
+			packageProductDependencies = (
+			);
+			productName = RobustradeAssignmentUITests;
+			productReference = 80DAC186308B0AE300440D50 /* RobustradeAssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80DAC15E308B0AE200440D50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					80DAC165308B0AE200440D50 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					80DAC17B308B0AE300440D50 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 80DAC165308B0AE200440D50;
+					};
+					80DAC185308B0AE300440D50 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 80DAC165308B0AE200440D50;
+					};
+				};
+			};
+			buildConfigurationList = 80DAC161308B0AE200440D50 /* Build configuration list for PBXProject "RobustradeAssignment" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80DAC15D308B0AE200440D50;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 80DAC167308B0AE200440D50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80DAC165308B0AE200440D50 /* RobustradeAssignment */,
+				80DAC17B308B0AE300440D50 /* RobustradeAssignmentTests */,
+				80DAC185308B0AE300440D50 /* RobustradeAssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80DAC164308B0AE200440D50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DAC17A308B0AE300440D50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DAC184308B0AE300440D50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80DAC162308B0AE200440D50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DAC178308B0AE300440D50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DAC182308B0AE300440D50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80DAC17E308B0AE300440D50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80DAC165308B0AE200440D50 /* RobustradeAssignment */;
+			targetProxy = 80DAC17D308B0AE300440D50 /* PBXContainerItemProxy */;
+		};
+		80DAC188308B0AE300440D50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80DAC165308B0AE200440D50 /* RobustradeAssignment */;
+			targetProxy = 80DAC187308B0AE300440D50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		80DAC190308B0AE300440D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_OPTIMIZATION_LEVEL = "[-Onone]";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RobustradeAssignment/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Products;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RobustradeAssignment.RobustradeAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80DAC191308B0AE300440D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RobustradeAssignment/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Products;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RobustradeAssignment.RobustradeAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80DAC192308B0AE300440D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80DAC193308B0AE300440D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80DAC195308B0AE300440D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RobustradeAssignment.RobustradeAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RobustradeAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RobustradeAssignment";
+			};
+			name = Debug;
+		};
+		80DAC196308B0AE300440D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RobustradeAssignment.RobustradeAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RobustradeAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RobustradeAssignment";
+			};
+			name = Release;
+		};
+		80DAC198308B0AE300440D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RobustradeAssignment.RobustradeAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RobustradeAssignment;
+			};
+			name = Debug;
+		};
+		80DAC199308B0AE300440D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RobustradeAssignment.RobustradeAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RobustradeAssignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80DAC161308B0AE200440D50 /* Build configuration list for PBXProject "RobustradeAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80DAC192308B0AE300440D50 /* Debug */,
+				80DAC193308B0AE300440D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		80DAC18F308B0AE300440D50 /* Build configuration list for PBXNativeTarget "RobustradeAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80DAC190308B0AE300440D50 /* Debug */,
+				80DAC191308B0AE300440D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		80DAC194308B0AE300440D50 /* Build configuration list for PBXNativeTarget "RobustradeAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80DAC195308B0AE300440D50 /* Debug */,
+				80DAC196308B0AE300440D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		80DAC197308B0AE300440D50 /* Build configuration list for PBXNativeTarget "RobustradeAssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80DAC198308B0AE300440D50 /* Debug */,
+				80DAC199308B0AE300440D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80DAC15E308B0AE200440D50 /* Project object */;
+}
