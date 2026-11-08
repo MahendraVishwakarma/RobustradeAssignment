@@ -32,7 +32,7 @@ jobs:
       - name: Test
         run: |
           xcodebuild test \
-            -project eShop.xcodeproj \
-            -scheme eShop \
+            -project RobustradeAssignment.xcodeproj \
+            -scheme RobustradeAssignment \
             -destination "platform=iOS Simulator,id=${{ steps.simulator.outputs.id }}" \
             CODE_SIGNING_ALLOWED=NO
