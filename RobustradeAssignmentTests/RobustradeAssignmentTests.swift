@@ -9,6 +9,7 @@ import XCTest
 @testable import RobustradeAssignment
 
 final class RobustradeAssignmentTests: XCTestCase {
+    
     func testClientEndpointBuildsExpectedURL() {
         let url = ClientEndpoint().url(for: .products, page: 2)
 
