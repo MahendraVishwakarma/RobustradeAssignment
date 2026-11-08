@@ -30,9 +30,9 @@ jobs:
           echo "id=$simulator_id" >> "$GITHUB_OUTPUT"
 
       - name: Test
-        run: >
-          xcodebuild test
-          -project eShop.xcodeproj
-          -scheme eShop
-          -destination 'platform=iOS Simulator,id=${{ steps.simulator.outputs.id }}'
-          CODE_SIGNING_ALLOWED=NO
+        run: |
+          xcodebuild test \
+            -project eShop.xcodeproj \
+            -scheme eShop \
+            -destination "platform=iOS Simulator,id=${{ steps.simulator.outputs.id }}" \
+            CODE_SIGNING_ALLOWED=NO
